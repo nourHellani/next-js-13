@@ -12,7 +12,7 @@ async function TodosList() {
   return <>
     {todos.map((todo)=>(
             <p key={todo.id}>
-                <Link href={'/todos/${todo.id}'}> Toodo:{todo.id}</Link>
+                <Link href={'/todos/' + todo.id}> Todo:{todo.id}</Link>
             </p>
         ))
     }
