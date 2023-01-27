@@ -1,8 +1,13 @@
 import React from 'react'
 
-function TodoPage() {
+type PageProps={
+     params:{
+        todoId:string
+     }
+}
+function TodoPage({params :{todoId}}:PageProps) {
   return (
-    <div>TodoPage
+    <div>TodoPage :{todoId}
 
     </div>
   )
