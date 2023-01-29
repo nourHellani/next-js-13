@@ -8,7 +8,7 @@ export default function RootLayout({
   return (
     <html>
       <head>
-        <title>Next JS 13</title>
+        <title>Web</title>
       </head>
       <body>
       <Header/>

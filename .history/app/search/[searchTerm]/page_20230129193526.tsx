@@ -26,6 +26,7 @@ const search = async (searchTerm: string) => {
 
     );
 
+    throw new Error("WHOOPS something broke");
     const data: SearchResult = await res.json();
     return data;
 }
