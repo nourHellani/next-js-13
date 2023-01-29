@@ -22,7 +22,7 @@ type SearchResult = {
 
 const search = async (searchTerm: string) => {
     const res = await fetch(
-        `https://serpapi.com/search.json?q=${searchTerm}&api_key=e6b9b712bbfbfaa0af4c2844bb758a8a68c96f7275381e9991994ece9bb81d46`
+        `https://serpapi.com/search.json?q=${searchTerm}&api_key=${process.env.API_KEY}`
 
     );
 
