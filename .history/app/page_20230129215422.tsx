@@ -14,7 +14,7 @@ function Home() {
       </Suspense>
 
 
-      <Suspense fallback={<p className='text-blue-500'>Loading the Shopping Trolley...</p>}>
+      <Suspense fallback={<p text>Loading the Shopping Trolley...</p>}>
         <h1>Loading Shopping Trolley</h1>
         <div className='flex space-x-2'>
           {/* @ts-ignore */}
