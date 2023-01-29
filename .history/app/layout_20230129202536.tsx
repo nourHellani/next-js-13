@@ -11,9 +11,9 @@ export default function RootLayout({
         <title>Next JS 13</title>
       </head>
       <body>
-        <Header />
+      <Header/>
         {children}
-      </body>
+        </body>
     </html>
   )
 }
